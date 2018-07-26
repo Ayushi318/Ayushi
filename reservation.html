@@ -1,0 +1,91 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Ticket reservation form</title>
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/wickedpicker.css" rel="stylesheet" type='text/css' media="all" />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!--fonts--> 
+<link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+
+<!--//fonts--> 
+</head>
+<body>
+<!--background-->
+<h1> Reservation Form </h1>
+    <div class="bg-agile">
+	<div class="book-reservation">
+			<form action="#" method="post">
+					<div class="form-date-w3-agileits">
+						<label><i class="fa fa-user" aria-hidden="true"></i> Name :</label>
+						<input type="text" name="name" placeholder="Your name" required=""/>
+					</div>
+					<div class="form-date-w3-agileits">
+						<label><i class="fa fa-envelope" aria-hidden="true"></i> Email :</label>
+						<input type="email" name="email" placeholder="Your email" required="" />
+					</div>
+					 <div class="form-date-w3-agileits">
+						<label><i class="fa fa-calendar" aria-hidden="true"></i> Age:</label>
+						<input  id="datepicker1" name="Text" type="text" value="enter Your Age" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+					</div>
+					<div class="form-time-w3layouts">
+							<label><i class="fa fa-clock-o" aria-hidden="true"></i> Contact no :</label>
+							<input type="text" name="Time" class="timepicker form-control" value="9829XXXXXX">	
+					</div>
+					<div class="form-date-w3-agileits">
+						<label><i class="fa fa-calendar" aria-hidden="true"></i> Arrival Date :</label>
+						<input  id="datepicker2" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+					</div>
+					<div class="form-time-w3layouts">
+							<label><i class="fa fa-clock-o" aria-hidden="true"></i> Departure Date :</label>
+							<input type="text" name="Time" class="timepicker form-control" value="mm/dd/yyyy">	
+					</div>
+					<div class="form-left-agileits-w3layouts bottom-w3ls">
+							<label><i class="fa fa-home" aria-hidden="true"></i> From:</label>
+							<select class="form-control">
+								<option>select :</option>
+								<option>Jaipur</option>
+								<option>delhi</option>
+								<option>mumbai</option>
+								<option>kolkata</option>
+								<option>banglore</option>
+								<option>pune</option>
+								<option>chennai</option>
+								<option>kerela</option>
+								<option>jammu</option>
+							</select>
+					</div>
+					<div class="form-left-agileits-w3layouts">
+							<label><i class="fa fa-users" aria-hidden="true"></i> Where :</label>
+							<select class="form-control">
+								<option>select :</option>
+								<option>Jaipur</option>
+								<option>delhi</option>
+								<option>mumbai</option>
+								<option>kolkata</option>
+								<option>banglore</option>
+								<option>pune</option>
+								<option>chennai</option>
+								<option>kerela</option>
+								<option>jammu</option>
+							</select>
+					</div>
+					<div class="clear"> </div>
+					<div class="make">
+						  <input type="submit" value="Make a Reservation">
+					</div>
+			</form>
+		</div>
+   </div>
+
+
+		<!-- Calendar -->
+				<link rel="stylesheet" href="css/jquery-ui.css" />
+			<!-- //Calendar -->
+			
+
+</body>
+</html>
